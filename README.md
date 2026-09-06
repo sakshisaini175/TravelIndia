@@ -303,7 +303,7 @@ Mounted at `/api` and implemented by `controllers/Admin.js`.
 | `POST` | `/api/register` | `{ email, password }` | Creates an admin account. |
 | `POST` | `/api/login` | `{ email, password }` | Checks admin credentials and returns an admin JWT. |
 
-Admin authentication currently uses a hardcoded JWT secret in `controllers/Admin.js`, separate from `JWT_SECRET`. This should be moved to environment configuration before production use.
+Admin authentication uses the same `JWT_SECRET` environment variable as regular user authentication.
 
 ### Products
 
@@ -363,8 +363,7 @@ Defined in `backend/src/models/booking.model.js`. Stores optional user/product r
 The project is suitable for development and demonstration, but the following areas should be addressed before production deployment:
 
 - Product and booking mutation routes are currently not protected by active authentication middleware.
-- `auth.middleware.js` is not mounted and currently mixes ESM and CommonJS patterns, references an undefined router, and uses a hardcoded secret.
-- Admin JWT signing uses a hardcoded secret instead of `JWT_SECRET` or a dedicated environment variable.
+- `auth.middleware.js` is not currently mounted on the protected routes.
 - The frontend contains hardcoded service URLs instead of a configurable API base URL.
 - The contact form contains a Web3Forms access key in frontend source. Rotate it if it has been exposed and move service configuration to an appropriate environment strategy.
 - The product category enum includes a leading space in ` Pilgrimage Tours`, while the admin form uses `Pilgrimage Tours` without that space.
