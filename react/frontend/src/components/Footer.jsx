@@ -26,7 +26,7 @@ function Footer() {
             <div className="col-md-4 mb-3">
               <h5>Get in Touch</h5>
               <p>📍 Address: Street No.3, Guru Teg Bahadur Nagar,Chandigarh </p>
-              <p>📞 Phone: 8567056803</p>
+              <p>📞 Phone: XXXX</p>
               <p>✉️ Email: travelindia1138@gmail.com</p>
               <h6>Follow Us:</h6>
               <a href="https://www.facebook.com/" className="text-light me-2">Facebook</a>
