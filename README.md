@@ -11,17 +11,19 @@ The repository contains two independently runnable applications:
 
 These screenshots were captured from the running frontend at `http://localhost:5173/`.
 
-| Home | About |
+| Public pages | Public pages |
 | --- | --- |
-| ![TravelIndia home page](docs/travelindia-homepage.png) | ![TravelIndia about page](docs/travelindia-about.png) |
-
-| Gallery | Packages |
-| --- | --- |
+| ![TravelIndia home page](docs/travelindia-home.png) | ![TravelIndia about page](docs/travelindia-about.png) |
 | ![TravelIndia gallery page](docs/travelindia-gallery.png) | ![TravelIndia packages page](docs/travelindia-packages.png) |
+| ![TravelIndia contact page](docs/travelindia-contact.png) | ![TravelIndia login page](docs/travelindia-login.png) |
+| ![TravelIndia register page](docs/travelindia-register.png) | ![TravelIndia bookings page](docs/travelindia-my-bookings.png) |
 
-| Contact |
-| --- |
-| ![TravelIndia contact page](docs/travelindia-contact.png) |
+| Admin pages | Admin pages |
+| --- | --- |
+| ![TravelIndia admin login page](docs/travelindia-admin-login.png) | ![TravelIndia dashboard](docs/travelindia-dashboard.png) |
+| ![TravelIndia admin bookings page](docs/travelindia-admin-bookings.png) | ![TravelIndia admin products page](docs/travelindia-admin-products.png) |
+| ![TravelIndia dashboard bookings page](docs/travelindia-dashboard-bookings.png) | ![TravelIndia add product page](docs/travelindia-add-product.png) |
+| ![TravelIndia bookings table](docs/travelindia-dashboard-booking-table.png) | ![TravelIndia product list](docs/travelindia-dashboard-product-list.png) |
 
 ## Features
 
