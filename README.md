@@ -7,6 +7,18 @@ The repository contains two independently runnable applications:
 - `frontend`: React 19 application powered by Vite.
 - `backend`: Express API backed by MongoDB/Mongoose and Cloudinary image uploads.
 
+## Running App
+
+These screenshots were captured from the running frontend at `http://localhost:5173/`.
+
+| Home | About |
+| --- | --- |
+| ![TravelIndia home page](docs/travelindia-homepage.png) | ![TravelIndia about page](docs/travelindia-about.png) |
+
+| Gallery | Packages |
+| --- | --- |
+| ![TravelIndia gallery page](docs/travelindia-gallery.png) | ![TravelIndia packages page](docs/travelindia-packages.png) |
+
 ## Features
 
 ### Public website
