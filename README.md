@@ -19,6 +19,10 @@ These screenshots were captured from the running frontend at `http://localhost:5
 | --- | --- |
 | ![TravelIndia gallery page](docs/travelindia-gallery.png) | ![TravelIndia packages page](docs/travelindia-packages.png) |
 
+| Contact |
+| --- |
+| ![TravelIndia contact page](docs/travelindia-contact.png) |
+
 ## Features
 
 ### Public website
